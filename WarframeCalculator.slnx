@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="../BusinessLogic/BusinessLogic.csproj" Id="88adcd02-6272-49e0-a0cf-39bb56e4d3c5" />
-  <Project Path="../DataLogic/DataLogic.csproj" Id="a43ba3f3-7b8f-4381-9ed4-39dbc96e1b6b" />
+  <Project Path="BusinessLogic/BusinessLogic.csproj" Id="1d32b988-16ac-4de0-9cc4-2f27ab8d713a" />
+  <Project Path="DataLogic/DataLogic.csproj" Id="71add6f5-8d58-4b16-84e5-c2bb7a58a617" />
   <Project Path="WarframeCalculator.csproj" />
 </Solution>
