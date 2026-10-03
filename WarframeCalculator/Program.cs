@@ -1,8 +1,12 @@
+using DataLogic;
+using DataLogic.Weapons;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDataServices(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
